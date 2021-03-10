@@ -1,0 +1,508 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(49, 3, 58);
+width: 100%;
+height: 100%;
+      
+}
+
+nav{
+    background: rgb(29, 1, 26);
+    height: 100px;
+}
+.logo{
+    width: 60px;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    cursor: pointer;
+}
+nav ul{
+    float:right;
+    margin-right: 540px; 
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: aliceblue;
+    font-size: 17px;
+}
+nav ul h4{
+    color: aliceblue;
+    font-size: 17px;
+    width: 250px;
+    position: absolute;
+    top: 6%;
+    right: 18%;
+}
+.gg{
+    width: 250px;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+}
+.col1{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(9, 136, 108);
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+}
+.col2{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(27, 2, 39);
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+}
+.text{
+    width: 500px;
+    position: absolute;
+    top: 23%;
+    right: 55%;
+}
+.text h1{
+   color: aliceblue;
+   font-size: 40px;
+}
+.but{
+    width: 250px;
+    position: absolute;
+    top: 35%;
+    right: 73%;
+    cursor: pointer;
+}
+.col3{
+    height: 58px;
+    width: 300px;
+    background-color: rgb(9, 136, 108);
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.i2{
+    position: absolute;
+    top: 10%;
+    left: 130%;
+}
+.but1{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    text-align:left ;
+    cursor:pointer;
+    
+}
+.box1{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box2{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box3{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box4{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box5{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box6{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box7{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box8{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(36, 1, 37);
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.row{
+    position: absolute;
+    top: 14%;
+    left: 57%;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+   
+  }
+
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .butt2{
+    width: 250px;
+    position: absolute;
+    top: 171%;
+    left: 37.5%;
+  }
+  .col4{
+    height: 58px;
+    width: 318px;
+    background-color: rgb(9, 136, 108);
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.whole{
+    position: absolute;
+    top:180%;
+    width:100%;
+}
+
+.slider{
+  position: absolute;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  
+  .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slides input{
+    display: none;
+    overflow: hidden;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+    overflow: hidden;
+  }
+  
+  .slide img{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    left: 26%;
+  }
+  
+  .manual-btn{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: black;
+  }
+  
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+  }
+  .white{
+    position: absolute;
+    width: 100%;
+    
+    top:245%;
+  }
+  .par{
+    position:absolute;
+    top:270%;
+    width:80%;
+    left: 15%;
+  }
+  .par ul h1 {
+    padding: 15px;
+    cursor: pointer;
+
+  }
+  .par ul h2 {
+    padding: 28px;
+    cursor: pointer;
+
+  }
+  .company{
+    position:absolute;
+    top:350%;
+    width:100%;
+  }
+  .butt3{
+    width: 220px;
+    position: absolute;
+    top: 414.1%;
+    left: 53.5%;
+    
+  }
+  .col5{
+    height: 58px;
+    width: 220px;
+    background-color: rgb(49, 3, 58) ;
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .bit3{
+    position: absolute;
+    top:414.1%;
+    left:69.5%;
+  }
+  .col61{
+    top:404.1;
+    left:60%;
+    height: 58px;
+    width: 220px;
+    background-color:white ;
+    color:rgb(247, 140, 158);
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .last{
+    position: absolute;
+    top:425%;
+    width:100%;
+    
+  }
+  .apnalogo{
+    position: absolute;
+    top:430%;
+    left:20%;
+    cursor: pointer;
+  }
+  .last1{
+    position: absolute;
+    top:430%;
+    left:35%;
+   
+  }
+  .last1 ul h3{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last1 ul h4{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last2{
+    position: absolute;
+    top:430%;
+    left:50%;
+    
+  }
+  .last2 ul h3{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last2 ul h4{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last3{
+    position: absolute;
+    top:430%;
+    left:65%;
+   
+  }
+  .last3 ul h3{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last3 ul h4{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .play{
+    position: absolute;
+    top:485%;
+    left:35%;
+    cursor: pointer;
+  }
+  .last4{
+    position: absolute;
+    top:480%;
+    left:50%;
+   
+  }
+  .last4 ul h3{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last4 ul h4{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last5{
+    position: absolute;
+    top:480%;
+    left:60%;
+   
+  }
+  .last5 ul h3{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last5 ul h4{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .last6{
+    position: absolute;
+    top:500%;
+    left:35%;
+   
+  }
+  
+  .last6 ul h4{
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .soci{
+  position: absolute;
+    top:510%;
+    left:35%;
+    width:80%%;
+  
+  }
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    flex:violet;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .apnalast{
+    position: absolute;
+    top:500%;
+    left:55%;
+  }
+  
+    
+  
